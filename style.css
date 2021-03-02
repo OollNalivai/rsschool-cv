@@ -1,0 +1,68 @@
+.resume-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resume-block-container {
+    width: 1170px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title-bold {
+    font-size: 42px;
+}
+
+.img {
+    width: 288px;
+    height: 318px;
+
+    border-radius: 10px;
+}
+
+.subtitle {
+    text-indent: 1em;
+}
+
+.list {
+    margin-left: -30px;
+}
+
+.list-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.item-skills {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(168, 162, 162, 0.6);
+}
+
+.list-item-decoration {
+    margin-left: 20px;
+    list-style: circle;
+}
+
+.decorative-highlighting {
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: rgba(168, 162, 162, 0.6);
+}
+
+.subtitle, .list-item {
+    font-size: 18px;
+    line-height: 28px;
+}
