@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool Markdown &amp; Git
+https://OollNalivai.github.io/rsschool-cv/cv
