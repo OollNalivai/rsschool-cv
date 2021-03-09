@@ -125,7 +125,7 @@
         </h3>
         <ul>
             <li>
-                <code>
+                <pre>
                     mygcd = (x,y) => {
                        let result = 1;
                        for (let i = Math.min(x, y); i >= 1; i--) {
@@ -136,27 +136,27 @@
                        }
                        return result;
                     }
-                </code>
+                </pre>
             </li>
             <li>
-                <code>
+                <pre>
                     capital = capitals => {
                        return capitals.map(object => {
                           const [state, capital] = Object.values(object);
                           return `The capital of ${state} is ${capital}`;
                        });
                     };
-                </code>
+                </pre>
             </li>
             <li>
-                <code>
+                <pre>
                     distinct = a => {
                        let result = [];
                        return a.filter((item) => {
                           return result.includes(item) ? false : result.push(item);
                        });
                     }
-                </code>
+                </pre>
             </li>
         </ul>
         <p class="subtitle">
