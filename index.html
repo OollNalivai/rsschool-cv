@@ -121,8 +121,44 @@
         </ul>
 
         <h3 class="title">
-            Progects
+            Progects and code
         </h3>
+        <ul>
+            <li>
+                <code>
+                    mygcd = (x,y) => {
+                       let result = 1;
+                       for (let i = Math.min(x, y); i >= 1; i--) {
+                          if (x % i === 0 && y % i ===0) {
+                          result = i;
+                          if ( result ) break;
+                          }
+                       }
+                       return result;
+                    }
+                </code>
+            </li>
+            <li>
+                <code>
+                    capital = capitals => {
+                       return capitals.map(object => {
+                          const [state, capital] = Object.values(object);
+                          return `The capital of ${state} is ${capital}`;
+                       });
+                    };
+                </code>
+            </li>
+            <li>
+                <code>
+                    distinct = a => {
+                       let result = [];
+                       return a.filter((item) => {
+                          return result.includes(item) ? false : result.push(item);
+                       });
+                    }
+                </code>
+            </li>
+        </ul>
         <p class="subtitle">
             I have progects on local storage.
         </p>
